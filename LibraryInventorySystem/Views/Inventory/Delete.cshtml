@@ -1,0 +1,31 @@
+﻿@model Inventory
+
+<form method="post" asp-action="DeletePost">
+    <input asp-for="Id" hidden/>
+    <div class="border p-3 mt-4">
+        <div class="row pb-2">
+            <h2 class="text-danger">Delete Inventory</h2>
+            <hr/>
+        </div>
+        <div asp-validation-summary="All"></div>
+        <div class="mb-3">
+            <label asp-for="BookTitle"></label>
+            <input asp-for="BookTitle" disabled class="form-control"/>
+        </div>
+        <div class="mb-3">
+            <label asp-for="AuthorName"></label>
+            <input asp-for="AuthorName" disabled class="form-control"/>
+        </div>
+        <div class="mb-3">
+            <label asp-for="Isbn"></label>
+            <input asp-for="Isbn" disabled class="form-control"/>
+
+        </div>
+        <button type="submit" class="btn btn-danger" style="width:150px">Delete</button>
+        <a asp-controller="Inventory" asp-action="Index" class="btn btn-secondary" style="width:150px">
+            Back to List
+        </a>
+    </div>
+
+
+</form>

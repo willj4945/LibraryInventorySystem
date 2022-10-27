@@ -5,17 +5,14 @@
     <projectFile profileName="LibraryInventorySystem">LibraryInventorySystem/LibraryInventorySystem.csproj</projectFile>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="614ea264-8789-4620-bef6-f19932672400" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/LibraryInventorySystem/Controllers/InventoryController.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/LibraryInventorySystem/Data/AppDbContext.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/LibraryInventorySystem/Migrations/20221027161900_AddInventoryToDatabase.Designer.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/LibraryInventorySystem/Migrations/20221027161900_AddInventoryToDatabase.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/LibraryInventorySystem/Migrations/AppDbContextModelSnapshot.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/LibraryInventorySystem/Models/Inventory.cs" afterDir="false" />
+    <list default="true" id="614ea264-8789-4620-bef6-f19932672400" name="Changes" comment="Built the database.">
+      <change afterPath="$PROJECT_DIR$/LibraryInventorySystem/Views/Inventory/Create.cshtml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/LibraryInventorySystem/Views/Inventory/Delete.cshtml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/LibraryInventorySystem/Views/Inventory/Edit.cshtml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/LibraryInventorySystem/Views/Inventory/Index.cshtml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.LibraryInventorySystem/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.LibraryInventorySystem/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/LibraryInventorySystem/LibraryInventorySystem.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/LibraryInventorySystem/LibraryInventorySystem.csproj" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/LibraryInventorySystem/Program.cs" beforeDir="false" afterPath="$PROJECT_DIR$/LibraryInventorySystem/Program.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/LibraryInventorySystem/appsettings.json" beforeDir="false" afterPath="$PROJECT_DIR$/LibraryInventorySystem/appsettings.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/LibraryInventorySystem/Controllers/InventoryController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/LibraryInventorySystem/Controllers/InventoryController.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/LibraryInventorySystem/Views/Shared/_Layout.cshtml" beforeDir="false" afterPath="$PROJECT_DIR$/LibraryInventorySystem/Views/Shared/_Layout.cshtml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -88,7 +85,7 @@
       <updated>1666224397333</updated>
       <workItem from="1666224401918" duration="2594000" />
       <workItem from="1666830452645" duration="5878000" />
-      <workItem from="1666885482446" duration="1318000" />
+      <workItem from="1666885482446" duration="4220000" />
     </task>
     <task id="LOCAL-00001" summary="Initial Commit">
       <created>1666224517047</created>
@@ -104,7 +101,14 @@
       <option name="project" value="LOCAL" />
       <updated>1666226996743</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Built the database.">
+      <created>1666889318031</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1666889318031</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -128,6 +132,7 @@
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
     <MESSAGE value="Initial Commit" />
     <MESSAGE value="Added bootwatch theme for a decent light mode. Applied it under _Layout.cshtml" />
-    <option name="LAST_COMMIT_MESSAGE" value="Added bootwatch theme for a decent light mode. Applied it under _Layout.cshtml" />
+    <MESSAGE value="Built the database." />
+    <option name="LAST_COMMIT_MESSAGE" value="Built the database." />
   </component>
 </project>
