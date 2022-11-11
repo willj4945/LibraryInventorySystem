@@ -1,0 +1,64 @@
+﻿@model IEnumerable<LibraryInventorySystem.Models.Employee>
+
+@{
+    ViewData["Title"] = "Index";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h1>Employees</h1>
+
+<div class="container p-3">
+    <div class="row pt-4">
+        <div class="colo-6">
+            <h2 class="text-dark">Current Employees</h2>
+        </div>
+        <div class="colo-6 text-end">
+            <a asp-controller="Employees" asp-action="Create" class="btn btn-primary">
+                <i class="bi bi-patch-plus-fill"></i> &nbsp; Add New Employee
+            </a>
+        </div>
+    </div>
+</div>
+
+
+<table class="table">
+    <thead>
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.FirstName)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.LastName)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Suffix)
+            </th>
+            
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+@foreach (var item in Model) {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.FirstName)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.LastName)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Suffix)
+            </td>
+            
+            <td>
+                    <div class="w-75 btn-group" role="group">
+                        <a asp-action="Edit" asp-route-id="@item.Id" class="btn btn-primary"> <i class="bi bi-pencil-square"></i>Edit</a> 
+                        <a asp-action="Details" asp-route-id="@item.Id" class="btn btn-info"> <i class="bi bi-card-list"></i>Details</a> 
+                        <a asp-action="Delete" asp-route-id="@item.Id" class="btn btn-danger"> <i class="bi bi-trash3"></i>Delete</a>
+                
+                    </div>
+            </td>
+        </tr>
+}
+    </tbody>
+</table>
