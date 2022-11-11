@@ -5,13 +5,8 @@
     <projectFile profileName="LibraryInventorySystem">LibraryInventorySystem/LibraryInventorySystem.csproj</projectFile>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="614ea264-8789-4620-bef6-f19932672400" name="Changes" comment="Built the database.">
-      <change afterPath="$PROJECT_DIR$/LibraryInventorySystem/Views/Inventory/Create.cshtml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/LibraryInventorySystem/Views/Inventory/Delete.cshtml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/LibraryInventorySystem/Views/Inventory/Edit.cshtml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/LibraryInventorySystem/Views/Inventory/Index.cshtml" afterDir="false" />
+    <list default="true" id="614ea264-8789-4620-bef6-f19932672400" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.LibraryInventorySystem/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.LibraryInventorySystem/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/LibraryInventorySystem/Controllers/InventoryController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/LibraryInventorySystem/Controllers/InventoryController.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/LibraryInventorySystem/Views/Shared/_Layout.cshtml" beforeDir="false" afterPath="$PROJECT_DIR$/LibraryInventorySystem/Views/Shared/_Layout.cshtml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -30,19 +25,25 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "ASKED_ADD_EXTERNAL_FILES": "true",
-    "ASKED_SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "nodejs_package_manager_path": "npm",
-    "settings.editor.selected.configurable": "preferences.pluginManager",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
+    &quot;ASKED_SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;configurable.group.tools&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  },
+  &quot;keyToStringList&quot;: {
+    &quot;DatabaseDriversLRU&quot;: [
+      &quot;sqlserver&quot;,
+      &quot;sqlserver.localdb&quot;
+    ]
   }
-}]]></component>
+}</component>
   <component name="RunManager" selected=".NET Launch Settings Profile.LibraryInventorySystem">
     <configuration name="LibraryInventorySystem" type="LaunchSettings" factoryName=".NET Launch Settings Profile">
       <option name="LAUNCH_PROFILE_PROJECT_FILE_PATH" value="$PROJECT_DIR$/LibraryInventorySystem/LibraryInventorySystem.csproj" />
@@ -85,7 +86,14 @@
       <updated>1666224397333</updated>
       <workItem from="1666224401918" duration="2594000" />
       <workItem from="1666830452645" duration="5878000" />
-      <workItem from="1666885482446" duration="4220000" />
+      <workItem from="1666885482446" duration="5101000" />
+      <workItem from="1666895336388" duration="6484000" />
+      <workItem from="1667053343869" duration="865000" />
+      <workItem from="1667087046667" duration="1655000" />
+      <workItem from="1667376722273" duration="66000" />
+      <workItem from="1667432562628" duration="2267000" />
+      <workItem from="1667924085456" duration="720000" />
+      <workItem from="1668041920318" duration="402000" />
     </task>
     <task id="LOCAL-00001" summary="Initial Commit">
       <created>1666224517047</created>
@@ -108,7 +116,14 @@
       <option name="project" value="LOCAL" />
       <updated>1666889318031</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Built out InventoryCont, Added in views for the database.">
+      <created>1666892288614</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1666892288614</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -133,6 +148,7 @@
     <MESSAGE value="Initial Commit" />
     <MESSAGE value="Added bootwatch theme for a decent light mode. Applied it under _Layout.cshtml" />
     <MESSAGE value="Built the database." />
-    <option name="LAST_COMMIT_MESSAGE" value="Built the database." />
+    <MESSAGE value="Built out InventoryCont, Added in views for the database." />
+    <option name="LAST_COMMIT_MESSAGE" value="Built out InventoryCont, Added in views for the database." />
   </component>
 </project>
