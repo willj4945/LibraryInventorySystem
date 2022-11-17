@@ -11,5 +11,6 @@ public class AppDbContext : DbContext
     }
     
     public DbSet<Inventory> Inventories { get; set; }
+    public DbSet<Employee> Employee { get; set; }
 
 }
