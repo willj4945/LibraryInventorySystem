@@ -1,0 +1,52 @@
+﻿@model SearchViewModel
+@{
+    ViewData["Title"] = "Index";
+}
+
+<div>
+    <br/>
+    <h1 class="display-4">
+        Search Results: 
+    </h1>
+    <br/>
+    <div>
+        <input class="form-control" type="text" placeholder="Search" asp-action="">
+        <button class="btn btn-primary" type="submit" asp-controller="Search" asp-action="Index"> Search </button>
+    </div>
+    <br/>
+    @if (Model.searchInput is not { } or "")
+    {
+        <table class="table table-bordered table-striped" style="width:100%">
+            <thead style="text-align: center">
+            <th>
+                @Html.DisplayNameFor(model => model.Titles)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Authors)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.ISBN)
+            </th>
+            </thead>
+            <tbody>
+            @{
+                System.Diagnostics.Debug.Assert(Model.Inventories != null, "Model.Inventories != null");
+            }
+            @foreach (var item in Model.Inventories.Where(item => item.BookTitle is ""))
+            {
+                <tr>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.BookTitle)
+                    </td>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.AuthorName)
+                    </td>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.Isbn)
+                    </td>
+                </tr>
+            }
+            </tbody>
+        </table>
+    }
+</div>
