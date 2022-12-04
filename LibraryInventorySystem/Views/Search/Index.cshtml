@@ -5,34 +5,36 @@
 
 <div>
     <br/>
-    <h1 class="display-4">
-        Search Results: 
-    </h1>
+    <h1 class="display-4"> Search Results: </h1>
     <br/>
     <div>
-        <input class="form-control" type="text" placeholder="Search" asp-action="">
-        <button class="btn btn-primary" type="submit" asp-controller="Search" asp-action="Index"> Search </button>
+        @using (Html.BeginForm("Index", "Search", FormMethod.Get))
+        {
+            <select asp-for="@Model.Filter" asp-items="@Html.GetEnumSelectList(typeof(Options))">
+            </select> 
+            @Html.TextBox("search") <input asp-for="@Model.SearchInput" type="submit" value="Search"/>
+        }
     </div>
     <br/>
-    @if (Model.searchInput is not { } or "")
-    {
+    <div>
         <table class="table table-bordered table-striped" style="width:100%">
             <thead style="text-align: center">
-            <th>
-                @Html.DisplayNameFor(model => model.Titles)
-            </th>
-            <th>
-                @Html.DisplayNameFor(model => model.Authors)
-            </th>
-            <th>
-                @Html.DisplayNameFor(model => model.ISBN)
-            </th>
+                <th>
+                    @Html.DisplayNameFor(model => model.Titles)
+                </th>
+                <th>
+                    @Html.DisplayNameFor(model => model.Authors)
+                </th>
+                <th>
+                    @Html.DisplayNameFor(model => model.Isbn)
+                </th>
             </thead>
             <tbody>
             @{
                 System.Diagnostics.Debug.Assert(Model.Inventories != null, "Model.Inventories != null");
+                Console.WriteLine(Model.SearchInput);
             }
-            @foreach (var item in Model.Inventories.Where(item => item.BookTitle is ""))
+            @foreach (var item in Model.Inventories.Where(item => item.BookTitle!.Equals(@ViewData[""])))
             {
                 <tr>
                     <td>
@@ -48,5 +50,5 @@
             }
             </tbody>
         </table>
-    }
+    </div>
 </div>
