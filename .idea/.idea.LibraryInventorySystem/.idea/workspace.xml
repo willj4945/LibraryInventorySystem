@@ -5,106 +5,36 @@
     <projectFile profileName="LibraryInventorySystem">LibraryInventorySystem/LibraryInventorySystem.csproj</projectFile>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="614ea264-8789-4620-bef6-f19932672400" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/LibraryInventorySystem/Areas/Identity/Pages/Account/AccessDenied.cshtml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/LibraryInventorySystem/Areas/Identity/Pages/Account/AccessDenied.cshtml.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/LibraryInventorySystem/Areas/Identity/Pages/Account/ConfirmEmail.cshtml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/LibraryInventorySystem/Areas/Identity/Pages/Account/ConfirmEmail.cshtml.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/LibraryInventorySystem/Areas/Identity/Pages/Account/ConfirmEmailChange.cshtml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/LibraryInventorySystem/Areas/Identity/Pages/Account/ConfirmEmailChange.cshtml.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/LibraryInventorySystem/Areas/Identity/Pages/Account/ExternalLogin.cshtml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/LibraryInventorySystem/Areas/Identity/Pages/Account/ExternalLogin.cshtml.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/LibraryInventorySystem/Areas/Identity/Pages/Account/ForgotPassword.cshtml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/LibraryInventorySystem/Areas/Identity/Pages/Account/ForgotPassword.cshtml.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/LibraryInventorySystem/Areas/Identity/Pages/Account/ForgotPasswordConfirmation.cshtml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/LibraryInventorySystem/Areas/Identity/Pages/Account/ForgotPasswordConfirmation.cshtml.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/LibraryInventorySystem/Areas/Identity/Pages/Account/Lockout.cshtml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/LibraryInventorySystem/Areas/Identity/Pages/Account/Lockout.cshtml.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/LibraryInventorySystem/Areas/Identity/Pages/Account/Login.cshtml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/LibraryInventorySystem/Areas/Identity/Pages/Account/Login.cshtml.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/LibraryInventorySystem/Areas/Identity/Pages/Account/LoginWith2fa.cshtml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/LibraryInventorySystem/Areas/Identity/Pages/Account/LoginWith2fa.cshtml.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/LibraryInventorySystem/Areas/Identity/Pages/Account/LoginWithRecoveryCode.cshtml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/LibraryInventorySystem/Areas/Identity/Pages/Account/LoginWithRecoveryCode.cshtml.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/LibraryInventorySystem/Areas/Identity/Pages/Account/Logout.cshtml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/LibraryInventorySystem/Areas/Identity/Pages/Account/Logout.cshtml.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/LibraryInventorySystem/Areas/Identity/Pages/Account/Manage/ChangePassword.cshtml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/LibraryInventorySystem/Areas/Identity/Pages/Account/Manage/ChangePassword.cshtml.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/LibraryInventorySystem/Areas/Identity/Pages/Account/Manage/DeletePersonalData.cshtml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/LibraryInventorySystem/Areas/Identity/Pages/Account/Manage/DeletePersonalData.cshtml.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/LibraryInventorySystem/Areas/Identity/Pages/Account/Manage/Disable2fa.cshtml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/LibraryInventorySystem/Areas/Identity/Pages/Account/Manage/Disable2fa.cshtml.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/LibraryInventorySystem/Areas/Identity/Pages/Account/Manage/DownloadPersonalData.cshtml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/LibraryInventorySystem/Areas/Identity/Pages/Account/Manage/DownloadPersonalData.cshtml.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/LibraryInventorySystem/Areas/Identity/Pages/Account/Manage/Email.cshtml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/LibraryInventorySystem/Areas/Identity/Pages/Account/Manage/Email.cshtml.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/LibraryInventorySystem/Areas/Identity/Pages/Account/Manage/EnableAuthenticator.cshtml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/LibraryInventorySystem/Areas/Identity/Pages/Account/Manage/EnableAuthenticator.cshtml.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/LibraryInventorySystem/Areas/Identity/Pages/Account/Manage/ExternalLogins.cshtml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/LibraryInventorySystem/Areas/Identity/Pages/Account/Manage/ExternalLogins.cshtml.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/LibraryInventorySystem/Areas/Identity/Pages/Account/Manage/GenerateRecoveryCodes.cshtml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/LibraryInventorySystem/Areas/Identity/Pages/Account/Manage/GenerateRecoveryCodes.cshtml.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/LibraryInventorySystem/Areas/Identity/Pages/Account/Manage/Index.cshtml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/LibraryInventorySystem/Areas/Identity/Pages/Account/Manage/Index.cshtml.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/LibraryInventorySystem/Areas/Identity/Pages/Account/Manage/ManageNavPages.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/LibraryInventorySystem/Areas/Identity/Pages/Account/Manage/PersonalData.cshtml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/LibraryInventorySystem/Areas/Identity/Pages/Account/Manage/PersonalData.cshtml.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/LibraryInventorySystem/Areas/Identity/Pages/Account/Manage/ResetAuthenticator.cshtml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/LibraryInventorySystem/Areas/Identity/Pages/Account/Manage/ResetAuthenticator.cshtml.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/LibraryInventorySystem/Areas/Identity/Pages/Account/Manage/SetPassword.cshtml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/LibraryInventorySystem/Areas/Identity/Pages/Account/Manage/SetPassword.cshtml.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/LibraryInventorySystem/Areas/Identity/Pages/Account/Manage/ShowRecoveryCodes.cshtml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/LibraryInventorySystem/Areas/Identity/Pages/Account/Manage/ShowRecoveryCodes.cshtml.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/LibraryInventorySystem/Areas/Identity/Pages/Account/Manage/TwoFactorAuthentication.cshtml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/LibraryInventorySystem/Areas/Identity/Pages/Account/Manage/TwoFactorAuthentication.cshtml.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/LibraryInventorySystem/Areas/Identity/Pages/Account/Manage/_Layout.cshtml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/LibraryInventorySystem/Areas/Identity/Pages/Account/Manage/_ManageNav.cshtml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/LibraryInventorySystem/Areas/Identity/Pages/Account/Manage/_StatusMessage.cshtml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/LibraryInventorySystem/Areas/Identity/Pages/Account/Manage/_ViewImports.cshtml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/LibraryInventorySystem/Areas/Identity/Pages/Account/Register.cshtml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/LibraryInventorySystem/Areas/Identity/Pages/Account/Register.cshtml.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/LibraryInventorySystem/Areas/Identity/Pages/Account/RegisterConfirmation.cshtml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/LibraryInventorySystem/Areas/Identity/Pages/Account/RegisterConfirmation.cshtml.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/LibraryInventorySystem/Areas/Identity/Pages/Account/ResendEmailConfirmation.cshtml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/LibraryInventorySystem/Areas/Identity/Pages/Account/ResendEmailConfirmation.cshtml.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/LibraryInventorySystem/Areas/Identity/Pages/Account/ResetPassword.cshtml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/LibraryInventorySystem/Areas/Identity/Pages/Account/ResetPassword.cshtml.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/LibraryInventorySystem/Areas/Identity/Pages/Account/ResetPasswordConfirmation.cshtml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/LibraryInventorySystem/Areas/Identity/Pages/Account/ResetPasswordConfirmation.cshtml.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/LibraryInventorySystem/Areas/Identity/Pages/Account/_StatusMessage.cshtml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/LibraryInventorySystem/Areas/Identity/Pages/Account/_ViewImports.cshtml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/LibraryInventorySystem/Areas/Identity/Pages/_ValidationScriptsPartial.cshtml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/LibraryInventorySystem/Areas/Identity/Pages/_ViewImports.cshtml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/LibraryInventorySystem/Areas/Identity/Pages/_ViewStart.cshtml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/LibraryInventorySystem/Migrations/20221112152711_AddEmployeeToDatabase.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/LibraryInventorySystem/Migrations/20221129012950_AddIdentityToDb.Designer.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/LibraryInventorySystem/Migrations/20221129012950_AddIdentityToDb.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/LibraryInventorySystem/ScaffoldingReadMe.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/LibraryInventorySystem/Views/Home/About.cshtml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/LibraryInventorySystem/Views/Shared/_LoginPartial.cshtml" afterDir="false" />
+    <list default="true" id="614ea264-8789-4620-bef6-f19932672400" name="Changes" comment="Fixing the merge.">
+      <change afterPath="$PROJECT_DIR$/LibraryInventorySystem/EmailSender.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/LibraryInventorySystem/Migrations/20221207204918_ExtendUserID.Designer.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/LibraryInventorySystem/Migrations/20221207204918_ExtendUserID.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/LibraryInventorySystem/Models/ApplicationUser.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/LibraryInventorySystem/SD.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.LibraryInventorySystem/.idea/dataSources/08d461ea-29b5-46fe-ad73-48364e8d7d12.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.LibraryInventorySystem/.idea/dataSources/08d461ea-29b5-46fe-ad73-48364e8d7d12.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.LibraryInventorySystem/.idea/dataSources/08d461ea-29b5-46fe-ad73-48364e8d7d12/storage_v2/_src_/database/Library.m7wgbQ/schema/dbo.sYMBAA.meta" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.LibraryInventorySystem/.idea/dataSources/08d461ea-29b5-46fe-ad73-48364e8d7d12/storage_v2/_src_/database/Library.m7wgbQ/schema/dbo.sYMBAA.meta" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.LibraryInventorySystem/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.LibraryInventorySystem/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.vs/LibraryInventorySystem/FileContentIndex/8b929c16-b011-4edd-bd9e-5a3fe6b8cb9a.vsidx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.vs/LibraryInventorySystem/FileContentIndex/f4b2928f-d9fc-4e28-a1c8-e1b8765080e5.vsidx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.vs/LibraryInventorySystem/FileContentIndex/f8d92dba-30b6-4ff6-818a-e0ee57648796.vsidx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.vs/LibraryInventorySystem/v17/.suo" beforeDir="false" afterPath="$PROJECT_DIR$/.vs/LibraryInventorySystem/v17/.suo" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/LibraryInventorySystem/Controllers/HomeController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/LibraryInventorySystem/Controllers/HomeController.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/LibraryInventorySystem/Areas/Identity/Pages/Account/Register.cshtml" beforeDir="false" afterPath="$PROJECT_DIR$/LibraryInventorySystem/Areas/Identity/Pages/Account/Register.cshtml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/LibraryInventorySystem/Areas/Identity/Pages/Account/Register.cshtml.cs" beforeDir="false" afterPath="$PROJECT_DIR$/LibraryInventorySystem/Areas/Identity/Pages/Account/Register.cshtml.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/LibraryInventorySystem/Data/AppDbContext.cs" beforeDir="false" afterPath="$PROJECT_DIR$/LibraryInventorySystem/Data/AppDbContext.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/LibraryInventorySystem/LibraryInventorySystem.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/LibraryInventorySystem/LibraryInventorySystem.csproj" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/LibraryInventorySystem/Migrations/20221102100309_AddEmployeeToDatabase.Designer.cs" beforeDir="false" afterPath="$PROJECT_DIR$/LibraryInventorySystem/Migrations/20221112152711_AddEmployeeToDatabase.Designer.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/LibraryInventorySystem/Migrations/20221102100309_AddEmployeeToDatabase.cs" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/LibraryInventorySystem/Migrations/AppDbContextModelSnapshot.cs" beforeDir="false" afterPath="$PROJECT_DIR$/LibraryInventorySystem/Migrations/AppDbContextModelSnapshot.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/LibraryInventorySystem/Models/Employee.cs" beforeDir="false" afterPath="$PROJECT_DIR$/LibraryInventorySystem/Models/Employee.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/LibraryInventorySystem/Models/Inventory.cs" beforeDir="false" afterPath="$PROJECT_DIR$/LibraryInventorySystem/Models/Inventory.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/LibraryInventorySystem/Program.cs" beforeDir="false" afterPath="$PROJECT_DIR$/LibraryInventorySystem/Program.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/LibraryInventorySystem/Views/Home/About.cshtml" beforeDir="false" afterPath="$PROJECT_DIR$/LibraryInventorySystem/Views/Home/About.cshtml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/LibraryInventorySystem/Views/Home/Index.cshtml" beforeDir="false" afterPath="$PROJECT_DIR$/LibraryInventorySystem/Views/Home/Index.cshtml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/LibraryInventorySystem/Views/Home/Privacy.cshtml" beforeDir="false" afterPath="$PROJECT_DIR$/LibraryInventorySystem/Views/Home/Privacy.cshtml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/LibraryInventorySystem/Views/Shared/_Layout.cshtml" beforeDir="false" afterPath="$PROJECT_DIR$/LibraryInventorySystem/Views/Shared/_Layout.cshtml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/LibraryInventorySystem/appsettings.json" beforeDir="false" afterPath="$PROJECT_DIR$/LibraryInventorySystem/appsettings.json" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="PREVIOUS_COMMIT_AUTHORS">
+      <list>
+        <option value="madoged &lt;57691398+madoged@users.noreply.github.com&gt;" />
+      </list>
+    </option>
   </component>
   <component name="GithubProjectSettings">
     <option name="branchProtectionPatterns">
@@ -209,7 +139,7 @@
       <workItem from="1669854441551" duration="1084000" />
       <workItem from="1670114362845" duration="615000" />
       <workItem from="1670184814751" duration="4136000" />
-      <workItem from="1670274152420" duration="6767000" />
+      <workItem from="1670274152420" duration="20555000" />
     </task>
     <task id="LOCAL-00001" summary="Initial Commit">
       <created>1666224517047</created>
@@ -239,7 +169,21 @@
       <option name="project" value="LOCAL" />
       <updated>1666892288614</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Merge pull request #6 from willj4945/2-create-employee-table&#10;&#10;2 create employee table">
+      <created>1670287790728</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1670287790728</updated>
+    </task>
+    <task id="LOCAL-00006" summary="Fixing the merge.">
+      <created>1670287833491</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1670287833491</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -265,6 +209,8 @@
     <MESSAGE value="Added bootwatch theme for a decent light mode. Applied it under _Layout.cshtml" />
     <MESSAGE value="Built the database." />
     <MESSAGE value="Built out InventoryCont, Added in views for the database." />
-    <option name="LAST_COMMIT_MESSAGE" value="Built out InventoryCont, Added in views for the database." />
+    <MESSAGE value="Merge pull request #6 from willj4945/2-create-employee-table&#10;&#10;2 create employee table" />
+    <MESSAGE value="Fixing the merge." />
+    <option name="LAST_COMMIT_MESSAGE" value="Fixing the merge." />
   </component>
 </project>

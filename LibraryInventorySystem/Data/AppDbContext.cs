@@ -13,5 +13,7 @@ public class AppDbContext : IdentityDbContext
     
     public DbSet<Inventory> Inventories { get; set; }
     public DbSet<Employee> Employee { get; set; }
+    
+    public DbSet<ApplicationUser> ApplicationUsers { get; set; }
 
 }
