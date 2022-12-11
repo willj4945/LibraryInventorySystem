@@ -8,45 +8,51 @@
     <h1 class="display-4"> Search Results: </h1>
     <br/>
     <div>
-        @using (Html.BeginForm("Index", "Search", FormMethod.Get))
-        {
-            <select asp-for="@Model.Filter" asp-items="@Html.GetEnumSelectList(typeof(Options))">
-            </select> 
-            @Html.TextBox("search") <input asp-for="@Model.SearchInput" type="submit" value="Search"/>
-        }
+        <form asp-controller="Search" asp-action="Index" method="get">
+            <p>
+                @*
+                <select asp-for="@Model.Filter" asp-items="@Html.GetEnumSelectList(typeof(Options))">
+                </select>
+                *@
+        
+                <input style="width: 50%" type="text" name="SearchString"/>
+                <input class="btn btn-sm rounded btn-primary" type="submit" value="Search" />
+            </p>
+        </form>
     </div>
     <br/>
     <div>
-        <table class="table table-bordered table-striped" style="width:100%">
-            <thead style="text-align: center">
+        <table class="table table-striped">
+            <thead class="thead bg-primary text-light" style="text-align: center">
+            <tr>
                 <th>
-                    @Html.DisplayNameFor(model => model.Titles)
+                    @Html.DisplayNameFor(model => model.Inventories![0].BookTitle)
                 </th>
                 <th>
-                    @Html.DisplayNameFor(model => model.Authors)
+                    @Html.DisplayNameFor(model => model.Inventories![0].AuthorName)
                 </th>
                 <th>
-                    @Html.DisplayNameFor(model => model.Isbn)
+                    @Html.DisplayNameFor(model => model.Inventories![0].Isbn)
                 </th>
+            </tr>
             </thead>
             <tbody>
-            @{
-                System.Diagnostics.Debug.Assert(Model.Inventories != null, "Model.Inventories != null");
-                Console.WriteLine(Model.SearchInput);
-            }
-            @foreach (var item in Model.Inventories.Where(item => item.BookTitle!.Equals(@ViewData[""])))
+            @foreach (var item in Model.Inventories!)
             {
-                <tr>
-                    <td>
-                        @Html.DisplayFor(modelItem => item.BookTitle)
-                    </td>
-                    <td>
-                        @Html.DisplayFor(modelItem => item.AuthorName)
-                    </td>
-                    <td>
-                        @Html.DisplayFor(modelItem => item.Isbn)
-                    </td>
-                </tr>
+                @if (item.BookTitle != null && item.BookTitle.Equals(ViewData["search"]))
+                {
+                    <tr style="text-align: center">
+                        <td>
+                            @Html.DisplayFor(modelItem => item.BookTitle)
+                        </td>
+                        <td>
+                            @Html.DisplayFor(modelItem => item.AuthorName)
+                        </td>
+                        <td>
+                            @Html.DisplayFor(modelItem => item.Isbn)
+                        </td>
+                    </tr>
+                }
             }
             </tbody>
         </table>

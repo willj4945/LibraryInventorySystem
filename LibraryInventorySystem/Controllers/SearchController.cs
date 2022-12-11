@@ -1,8 +1,6 @@
-﻿using System.Text.RegularExpressions;
-using Microsoft.AspNetCore.Mvc;
+﻿using Microsoft.AspNetCore.Mvc;
 using LibraryInventorySystem.Data;
 using LibraryInventorySystem.Models;
-using LibraryInventorySystem.Views.Search;
 using Microsoft.AspNetCore.Mvc.Rendering;
 using Microsoft.EntityFrameworkCore;
 
@@ -16,44 +14,30 @@ public class SearchController : Controller
     {
         _context = context;
     }
-
     
-    public async Task<IActionResult> Index(string filter, string search)
+    public async Task<IActionResult> Index(string filter, string searchString)
     {
-        ViewData["CurrentFilter"] = filter;
-                
-        IQueryable<string> bookSearch = from m in _context.Inventories 
-                                        select m.BookTitle;
-        
-        ViewData["search"] = search;
+        IQueryable<string> bookSearch = from m in _context.Inventories select m.BookTitle;
+
+        ViewData["search"] = searchString;
         
         var books = from m in _context.Inventories select m;
-        
-        if (!string.IsNullOrEmpty(search))
+
+        switch (filter)
         {
-            books = books.Where(s => s.BookTitle!.Contains(search));
-        }
-    
-        if (!string.IsNullOrEmpty(search))
-        {
-            books = books.Where(x => x.AuthorName == search);
+            case "Title":
+                break;
         }
         
-        if (!string.IsNullOrEmpty(search) && search.Length is 8 or 13)
+        if (!string.IsNullOrEmpty(searchString))
         {
-            if (int.TryParse(search, out var isbn))
-            {
-                books = books.Where(y => y.Isbn == isbn);
-            }
+            books = books.Where(s => s.BookTitle!.Contains(searchString));
         }
         
         var bookInventoryVm = new SearchViewModel
         {
             Inventories = await books.ToListAsync(),
-            Titles = new SelectList(await bookSearch.Distinct().ToListAsync()),
-            Authors = new SelectList(await bookSearch.Distinct().ToListAsync()),
-            Isbn = new SelectList(await bookSearch.Distinct().ToListAsync()),
-            SearchInput = search
+            Titles = new SelectList(bookSearch.Distinct())
         };
             
         return View(bookInventoryVm);    

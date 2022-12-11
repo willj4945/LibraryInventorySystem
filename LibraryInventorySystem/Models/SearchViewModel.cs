@@ -18,8 +18,8 @@ public class SearchViewModel
     public SelectList? Titles { get; set; }
     public SelectList? Authors { get; set; }
     public SelectList? Isbn { get; set; }
-    public Options Filter { get; set; }
+    public Options? Filter { get; set; }
     
     [BindProperty(SupportsGet = true)]
-    public string? SearchInput { get; set; }
+    public string? SearchString { get; set; }
 }

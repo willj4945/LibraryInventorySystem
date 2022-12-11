@@ -6,16 +6,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="614ea264-8789-4620-bef6-f19932672400" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/LibraryInventorySystem/Migrations/20221204211822_FirstMigration.Designer.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/LibraryInventorySystem/Migrations/20221204211822_FirstMigration.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/LibraryInventorySystem/Views/Search/PaginatedList.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.LibraryInventorySystem/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.LibraryInventorySystem/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/LibraryInventorySystem/Controllers/SearchController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/LibraryInventorySystem/Controllers/SearchController.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/LibraryInventorySystem/Models/Employee.cs" beforeDir="false" afterPath="$PROJECT_DIR$/LibraryInventorySystem/Models/Employee.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/LibraryInventorySystem/Models/Inventory.cs" beforeDir="false" afterPath="$PROJECT_DIR$/LibraryInventorySystem/Models/Inventory.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/LibraryInventorySystem/Models/SearchViewModel.cs" beforeDir="false" afterPath="$PROJECT_DIR$/LibraryInventorySystem/Models/SearchViewModel.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/LibraryInventorySystem/Views/Search/Index.cshtml" beforeDir="false" afterPath="$PROJECT_DIR$/LibraryInventorySystem/Views/Search/Index.cshtml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/LibraryInventorySystem/Views/Shared/_Layout.cshtml" beforeDir="false" afterPath="$PROJECT_DIR$/LibraryInventorySystem/Views/Shared/_Layout.cshtml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/LibraryInventorySystem/appsettings.json" beforeDir="false" afterPath="$PROJECT_DIR$/LibraryInventorySystem/appsettings.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/LibraryInventorySystem/Views/Search/PaginatedList.cs" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -35,6 +32,19 @@
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/8d3195c9ba918c7860b66ce3965d4b9f173653cfea2479e8bb842d3513a89b/RazorPageOfT.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/a5b44de454c5ef90593b8b1fd62624e3a687e08ad46abe3634941c8cb14134d/MultiSelectList.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/c6ad457575d35dcbff26c9a5e3fb1d92f1d3c55f25ef6ebf475367b5d8/List.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock://C:/Users/98jma/RiderProjects/LibraryInventorySystem/LibraryInventorySystem/Controllers/SearchController.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock://C:/Users/98jma/RiderProjects/LibraryInventorySystem/LibraryInventorySystem/Controllers/SearchController.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock://C:/Users/98jma/RiderProjects/LibraryInventorySystem/LibraryInventorySystem/Controllers/SearchController.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock://C:/Users/98jma/RiderProjects/LibraryInventorySystem/LibraryInventorySystem/Controllers/SearchController.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock://C:/Users/98jma/RiderProjects/LibraryInventorySystem/LibraryInventorySystem/Controllers/SearchController.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock://C:/Users/98jma/RiderProjects/LibraryInventorySystem/LibraryInventorySystem/Controllers/SearchController.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock://C:/Users/98jma/RiderProjects/LibraryInventorySystem/LibraryInventorySystem/Controllers/SearchController.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock://C:/Users/98jma/RiderProjects/LibraryInventorySystem/LibraryInventorySystem/Controllers/SearchController.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock://C:/Users/98jma/RiderProjects/LibraryInventorySystem/LibraryInventorySystem/Controllers/SearchController.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock://C:/Users/98jma/RiderProjects/LibraryInventorySystem/LibraryInventorySystem/Models/SearchViewModel.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock://C:/Users/98jma/RiderProjects/LibraryInventorySystem/LibraryInventorySystem/Models/SearchViewModel.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock://C:/Users/98jma/RiderProjects/LibraryInventorySystem/LibraryInventorySystem/Models/SearchViewModel.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock://C:/Users/98jma/RiderProjects/LibraryInventorySystem/LibraryInventorySystem/Models/SearchViewModel.cs" root0="SKIP_HIGHLIGHTING" />
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
@@ -56,7 +66,7 @@
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
     &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
     &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.sourceCode.C#&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;org.jetbrains.plugins.github.ui.GithubSettingsConfigurable&quot;,
     &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   },
   &quot;keyToStringList&quot;: {
@@ -115,7 +125,8 @@
       <workItem from="1666885482446" duration="4220000" />
       <workItem from="1668725491586" duration="24360000" />
       <workItem from="1669668590218" duration="28746000" />
-      <workItem from="1670188121803" duration="1145000" />
+      <workItem from="1670188121803" duration="8824000" />
+      <workItem from="1670459369319" duration="30921000" />
     </task>
     <task id="LOCAL-00001" summary="Initial Commit">
       <created>1666224517047</created>
@@ -138,7 +149,14 @@
       <option name="project" value="LOCAL" />
       <updated>1666889318031</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Trying to fix search issues">
+      <created>1670189532833</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1670189532833</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -163,6 +181,7 @@
     <MESSAGE value="Initial Commit" />
     <MESSAGE value="Added bootwatch theme for a decent light mode. Applied it under _Layout.cshtml" />
     <MESSAGE value="Built the database." />
-    <option name="LAST_COMMIT_MESSAGE" value="Built the database." />
+    <MESSAGE value="Trying to fix search issues" />
+    <option name="LAST_COMMIT_MESSAGE" value="Trying to fix search issues" />
   </component>
 </project>
