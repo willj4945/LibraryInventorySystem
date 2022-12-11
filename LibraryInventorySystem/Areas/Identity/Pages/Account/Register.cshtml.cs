@@ -1,5 +1,6 @@
 // Licensed to the .NET Foundation under one or more agreements.
 // The .NET Foundation licenses this file to you under the MIT license.
+
 #nullable disable
 
 using System;
@@ -30,6 +31,7 @@ namespace LibraryInventorySystem.Areas.Identity.Pages.Account
         private readonly ILogger<RegisterModel> _logger;
         private readonly IEmailSender _emailSender;
         private readonly RoleManager<IdentityRole> _roleManager;
+
         public RegisterModel(
             UserManager<IdentityUser> userManager,
             IUserStore<IdentityUser> userStore,
@@ -86,7 +88,8 @@ namespace LibraryInventorySystem.Areas.Identity.Pages.Account
             ///     directly from your code. This API may change or be removed in future releases.
             /// </summary>
             [Required]
-            [StringLength(100, ErrorMessage = "The {0} must be at least {2} and at max {1} characters long.", MinimumLength = 6)]
+            [StringLength(100, ErrorMessage = "The {0} must be at least {2} and at max {1} characters long.",
+                MinimumLength = 6)]
             [DataType(DataType.Password)]
             [Display(Name = "Password")]
             public string Password { get; set; }
@@ -99,12 +102,23 @@ namespace LibraryInventorySystem.Areas.Identity.Pages.Account
             [Display(Name = "Confirm password")]
             [Compare("Password", ErrorMessage = "The password and confirmation password do not match.")]
             public string ConfirmPassword { get; set; }
-            
+
             [Required] public string Name { get; set; }
+
+            [Required]
+            [Display(Name = "street address")]
             public string StreetAddress { get; set; }
-            public string City { get; set; }
-            public string State { get; set; }
+
+            [Required] public string City { get; set; }
+            [Required] public string State { get; set; }
+
+            [Required]
+            [Display(Name = "postal code")]
             public string PostalCode { get; set; }
+
+            [Required]
+            [Display(Name = "phone number")]
+
             public string PhoneNumber { get; set; }
         }
 
@@ -116,7 +130,7 @@ namespace LibraryInventorySystem.Areas.Identity.Pages.Account
                 _roleManager.CreateAsync(new IdentityRole(SD.RoleAdmin)).GetAwaiter().GetResult();
                 _roleManager.CreateAsync(new IdentityRole(SD.RoleUser)).GetAwaiter().GetResult();
             }
-            
+
 
             ReturnUrl = returnUrl;
             ExternalLogins = (await _signInManager.GetExternalAuthenticationSchemesAsync()).ToList();
@@ -132,11 +146,10 @@ namespace LibraryInventorySystem.Areas.Identity.Pages.Account
 
                 await _userStore.SetUserNameAsync(user, Input.Email, CancellationToken.None);
                 await _emailStore.SetEmailAsync(user, Input.Email, CancellationToken.None);
-             
-                
+
+
                 var result = await _userManager.CreateAsync(user, Input.Password);
-                
-                
+
 
                 if (result.Succeeded)
                 {
@@ -156,7 +169,8 @@ namespace LibraryInventorySystem.Areas.Identity.Pages.Account
 
                     if (_userManager.Options.SignIn.RequireConfirmedAccount)
                     {
-                        return RedirectToPage("RegisterConfirmation", new { email = Input.Email, returnUrl = returnUrl });
+                        return RedirectToPage("RegisterConfirmation",
+                            new { email = Input.Email, returnUrl = returnUrl });
                     }
                     else
                     {
@@ -164,6 +178,7 @@ namespace LibraryInventorySystem.Areas.Identity.Pages.Account
                         return LocalRedirect(returnUrl);
                     }
                 }
+
                 foreach (var error in result.Errors)
                 {
                     ModelState.AddModelError(string.Empty, error.Description);
@@ -183,8 +198,8 @@ namespace LibraryInventorySystem.Areas.Identity.Pages.Account
             catch
             {
                 throw new InvalidOperationException($"Can't create an instance of '{nameof(IdentityUser)}'. " +
-                    $"Ensure that '{nameof(IdentityUser)}' is not an abstract class and has a parameterless constructor, or alternatively " +
-                    $"override the register page in /Areas/Identity/Pages/Account/Register.cshtml");
+                                                    $"Ensure that '{nameof(IdentityUser)}' is not an abstract class and has a parameterless constructor, or alternatively " +
+                                                    $"override the register page in /Areas/Identity/Pages/Account/Register.cshtml");
             }
         }
 
@@ -194,6 +209,7 @@ namespace LibraryInventorySystem.Areas.Identity.Pages.Account
             {
                 throw new NotSupportedException("The default UI requires a user store with email support.");
             }
+
             return (IUserEmailStore<IdentityUser>)_userStore;
         }
     }
