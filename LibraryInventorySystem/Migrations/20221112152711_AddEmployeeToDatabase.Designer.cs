@@ -12,8 +12,8 @@ using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 namespace LibraryInventorySystem.Migrations
 {
     [DbContext(typeof(AppDbContext))]
-    [Migration("20221102100309_AddEmployeeToDatabase2")]
-    partial class AddEmployeeToDatabase2
+    [Migration("20221112152711_AddEmployeeToDatabase")]
+    partial class AddEmployeeToDatabase
     {
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {

@@ -4,7 +4,6 @@ namespace LibraryInventorySystem.Models
 {
     public class Employee
     {
-
         [Key] public int Id { get; set; }
 
         [Required] public string? FirstName { get; set; }
@@ -22,8 +21,5 @@ namespace LibraryInventorySystem.Models
         [Required] public string? State { get; set; }
 
         [Required] public int ZipCode { get; set; }
-
-
-
     }
 }

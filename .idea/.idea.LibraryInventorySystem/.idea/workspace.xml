@@ -6,13 +6,20 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="614ea264-8789-4620-bef6-f19932672400" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.LibraryInventorySystem/.idea/dataSources.local.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.LibraryInventorySystem/.idea/dataSources.local.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.LibraryInventorySystem/.idea/dataSources/08d461ea-29b5-46fe-ad73-48364e8d7d12.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.LibraryInventorySystem/.idea/dataSources/08d461ea-29b5-46fe-ad73-48364e8d7d12.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.LibraryInventorySystem/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.LibraryInventorySystem/.idea/workspace.xml" afterDir="false" />
+
       <change beforePath="$PROJECT_DIR$/LibraryInventorySystem/Controllers/SearchController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/LibraryInventorySystem/Controllers/SearchController.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/LibraryInventorySystem/Models/Employee.cs" beforeDir="false" afterPath="$PROJECT_DIR$/LibraryInventorySystem/Models/Employee.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/LibraryInventorySystem/Models/Inventory.cs" beforeDir="false" afterPath="$PROJECT_DIR$/LibraryInventorySystem/Models/Inventory.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/LibraryInventorySystem/Models/SearchViewModel.cs" beforeDir="false" afterPath="$PROJECT_DIR$/LibraryInventorySystem/Models/SearchViewModel.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/LibraryInventorySystem/Views/Search/Index.cshtml" beforeDir="false" afterPath="$PROJECT_DIR$/LibraryInventorySystem/Views/Search/Index.cshtml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/LibraryInventorySystem/Views/Search/PaginatedList.cs" beforeDir="false" />
+
+      <change beforePath="$PROJECT_DIR$/LibraryInventorySystem/Areas/Identity/Pages/Account/Register.cshtml" beforeDir="false" afterPath="$PROJECT_DIR$/LibraryInventorySystem/Areas/Identity/Pages/Account/Register.cshtml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/LibraryInventorySystem/Areas/Identity/Pages/Account/Register.cshtml.cs" beforeDir="false" afterPath="$PROJECT_DIR$/LibraryInventorySystem/Areas/Identity/Pages/Account/Register.cshtml.cs" afterDir="false" />
+
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -20,6 +27,7 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="Git.Settings">
+
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
         <entry key="$PROJECT_DIR$" value="master" />
@@ -45,6 +53,29 @@
     <setting file="mock://C:/Users/98jma/RiderProjects/LibraryInventorySystem/LibraryInventorySystem/Models/SearchViewModel.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="mock://C:/Users/98jma/RiderProjects/LibraryInventorySystem/LibraryInventorySystem/Models/SearchViewModel.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="mock://C:/Users/98jma/RiderProjects/LibraryInventorySystem/LibraryInventorySystem/Models/SearchViewModel.cs" root0="SKIP_HIGHLIGHTING" />
+
+    <option name="PREVIOUS_COMMIT_AUTHORS">
+      <list>
+        <option value="madoged &lt;57691398+madoged@users.noreply.github.com&gt;" />
+      </list>
+    </option>
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="9-implement-useradmin-views" />
+      </map>
+    </option>
+  </component>
+  <component name="GithubProjectSettings">
+    <option name="branchProtectionPatterns">
+      <list>
+        <option value="master" />
+      </list>
+    </option>
+  </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/49deba103bc6d3b9bacc837251cc1a924b25b28cc154741d0fb7cfdaff7277/ValidationMessageTagHelper.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/LibraryInventorySystem/Program.cs" root0="FORCE_HIGHLIGHTING" />
+
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
@@ -65,18 +96,29 @@
     &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
     &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;database.data.extractors.current.export.id&quot;: &quot;Comma-separated (CSV)_id&quot;,
     &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
     &quot;settings.editor.selected.configurable&quot;: &quot;org.jetbrains.plugins.github.ui.GithubSettingsConfigurable&quot;,
     &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   },
   &quot;keyToStringList&quot;: {
     &quot;DatabaseDriversLRU&quot;: [
+
       &quot;sqlserver&quot;
     ],
     &quot;rider.external.source.directories&quot;: [
       &quot;C:\\Users\\98jma\\AppData\\Roaming\\JetBrains\\Rider2022.3\\resharper-host\\DecompilerCache&quot;,
       &quot;C:\\Users\\98jma\\AppData\\Roaming\\JetBrains\\Rider2022.3\\resharper-host\\SourcesCache&quot;,
       &quot;C:\\Users\\98jma\\AppData\\Local\\Symbols\\src&quot;
+
+      &quot;sqlserver.localdb&quot;,
+      &quot;sqlserver&quot;
+    ],
+    &quot;rider.external.source.directories&quot;: [
+      &quot;C:\\Users\\Will_\\AppData\\Roaming\\JetBrains\\Rider2022.3\\resharper-host\\DecompilerCache&quot;,
+      &quot;C:\\Users\\Will_\\AppData\\Roaming\\JetBrains\\Rider2022.3\\resharper-host\\SourcesCache&quot;,
+      &quot;C:\\Users\\Will_\\AppData\\Local\\Symbols\\src&quot;
+
     ]
   }
 }</component>
@@ -122,11 +164,39 @@
       <updated>1666224397333</updated>
       <workItem from="1666224401918" duration="2594000" />
       <workItem from="1666830452645" duration="5878000" />
+
       <workItem from="1666885482446" duration="4220000" />
       <workItem from="1668725491586" duration="24360000" />
       <workItem from="1669668590218" duration="28746000" />
       <workItem from="1670188121803" duration="8824000" />
       <workItem from="1670459369319" duration="30921000" />
+
+      <workItem from="1666885482446" duration="5101000" />
+      <workItem from="1666895336388" duration="6484000" />
+      <workItem from="1667053343869" duration="865000" />
+      <workItem from="1667087046667" duration="1655000" />
+      <workItem from="1667376722273" duration="66000" />
+      <workItem from="1667432562628" duration="2267000" />
+      <workItem from="1667924085456" duration="720000" />
+      <workItem from="1668041920318" duration="402000" />
+      <workItem from="1668135086546" duration="1942000" />
+      <workItem from="1668137080154" duration="191000" />
+      <workItem from="1668266314642" duration="5095000" />
+      <workItem from="1668449667148" duration="4583000" />
+      <workItem from="1668603684254" duration="5164000" />
+      <workItem from="1668645667429" duration="1332000" />
+      <workItem from="1668790283398" duration="1253000" />
+      <workItem from="1669660940207" duration="934000" />
+      <workItem from="1669666336930" duration="6191000" />
+      <workItem from="1669733379951" duration="5889000" />
+      <workItem from="1669854441551" duration="1084000" />
+      <workItem from="1670114362845" duration="615000" />
+      <workItem from="1670184814751" duration="4136000" />
+      <workItem from="1670274152420" duration="21063000" />
+      <workItem from="1670460093374" duration="1264000" />
+      <workItem from="1670521594148" duration="1014000" />
+      <workItem from="1670790256940" duration="1642000" />
+
     </task>
     <task id="LOCAL-00001" summary="Initial Commit">
       <created>1666224517047</created>
@@ -156,7 +226,35 @@
       <option name="project" value="LOCAL" />
       <updated>1670189532833</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Merge pull request #6 from willj4945/2-create-employee-table&#10;&#10;2 create employee table">
+      <created>1670287790728</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1670287790728</updated>
+    </task>
+    <task id="LOCAL-00006" summary="Fixing the merge.">
+      <created>1670287833491</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1670287833491</updated>
+    </task>
+    <task id="LOCAL-00007" summary="Added in new registration data for admin/user login.">
+      <created>1670447119383</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1670447119383</updated>
+    </task>
+    <task id="LOCAL-00008" summary="test">
+      <created>1670447376836</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1670447376836</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -181,7 +279,16 @@
     <MESSAGE value="Initial Commit" />
     <MESSAGE value="Added bootwatch theme for a decent light mode. Applied it under _Layout.cshtml" />
     <MESSAGE value="Built the database." />
+
     <MESSAGE value="Trying to fix search issues" />
     <option name="LAST_COMMIT_MESSAGE" value="Trying to fix search issues" />
+
+    <MESSAGE value="Built out InventoryCont, Added in views for the database." />
+    <MESSAGE value="Merge pull request #6 from willj4945/2-create-employee-table&#10;&#10;2 create employee table" />
+    <MESSAGE value="Fixing the merge." />
+    <MESSAGE value="Added in new registration data for admin/user login." />
+    <MESSAGE value="test" />
+    <option name="LAST_COMMIT_MESSAGE" value="test" />
+
   </component>
 </project>
