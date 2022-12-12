@@ -16,12 +16,7 @@ public class Inventory
 
 
     [Required] public string? BookTitle { get; set; }
-
-
-    [DisplayName("ISBN")]
-    public int Isbn  { get; set; }
     
-
     [DisplayName("Author Name")] public string? AuthorName { get; set; }
 
     [DisplayName("ISBN")] public int Isbn { get; set; }
